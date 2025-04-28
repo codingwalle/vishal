@@ -1,0 +1,656 @@
+* {
+    font-family: Georgia, serif;
+}
+
+strong {
+    color: #3068b3;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+/* Main Banner Container */
+.code-banner-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.code-banner {
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+.code-banner-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 100%;
+}
+
+
+.code-banner-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.code-banner-text h4 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.code-banner-text h1 {
+    color: #914516;
+}
+
+.code-banner-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #914516;
+    line-height: 1.3;
+}
+
+.code-banner-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.code-cta-btn {
+    background: #914516;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.code-cta-btn:hover {
+    background: #3068b3;
+}
+
+
+.code-banner-img {
+    flex: 1;
+    text-align: center;
+}
+
+.code-banner-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.code-kickstart {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+/* frontend Technology */
+
+.code-main {
+    margin: 85px 0px;
+}
+
+.code-heading {
+    margin: 30px 0 0 100px;
+    color: #914516;
+}
+
+.code-technology-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-technology {
+    width: 85%;
+    align-items: center;
+}
+
+.technology-boxs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.technology-boxs .t-box {
+    height: 180px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+.code-ques ol li
+{
+ line-height: 25px;
+} 
+.code-robotics {
+    background-color: #3068b3;
+    color: white !important;
+}
+
+.technology-boxs .t-box img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 15px; */
+}
+
+.code-para-img {
+    justify-content: center;
+    align-items: center;
+}
+
+.technology-boxs .t-box:hover {
+    margin-top: 10px;
+    transition: ease-in;
+}
+
+.technology-boxs .t-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+
+}
+
+.technology-boxs .t-box a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.technology-boxs .t-box p {
+    text-align: center;
+    padding: 5px;
+}
+
+/* compiler section  */
+
+.online-compiler
+{
+    background-color: rgba(168, 168, 168, 0.267);
+    margin: 70px 0px;
+    padding: 25px;
+}
+.online-compiler h2{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.codingwalla_com_compl{
+    width: 100%;    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #fff;
+    margin: auto;
+}
+
+
+.codingwalla-compiler{
+    width: 85%;
+    background: #1f1f1f;
+    margin: auto;
+    height: 57vh;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.compiler-left, .compiler-right{
+    flex-basis: 50%;
+    height: 56vh;
+    padding: 0px;
+}
+
+textarea{
+  width: 100%;
+  height: 21%;
+  background: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+}
+
+iframe{
+ width: 100%;
+ height: 98%;
+ background: #fff;
+ border: 0;
+ outline: 0;   
+}
+
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    color: white;
+    background: #000;
+    height: 30px;
+}
+
+
+
+
+
+
+/*  html page css start */
+
+.code-main-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+
+.code-side {
+    width: 20%;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    background-color: #99c2f84d;
+    margin-top: 108px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.code-side .code-sidebar {
+    width: 100%;
+    height: auto;
+   
+}
+
+.code-mainbar {
+    width: 80%;
+    /* height: 100vh; */
+    background-color: white;
+}
+.left-menu
+{
+    margin-bottom: 200px;
+}
+
+.left-menu h2 {
+    color: rgb(0, 38, 255);
+    margin: 20px 10px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.left-menu ul {
+    margin: 5px;
+}
+
+.left-menu ul li {
+    margin-left: 20px;
+    list-style: none;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.left-menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+
+}
+
+.left-menu ul li::after {
+    content: " →";
+    color: #3068b3;
+    float: right;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: none;
+}
+
+.left-menu ul li:hover::after {
+    display: block;
+}
+
+.left-menu ul li:hover {
+    background-color: #3069b34d;
+    display: block;
+}
+
+.code-mainbar {
+    width: 65%;
+    padding: 0px 25px;
+    /* height: 100vh; */
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-top: 108px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.code-mainbar h1
+{
+    font-size: 25px;
+}
+
+.code-mainbar h2 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 35px;
+}
+
+
+.code-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 35px 0px;
+}
+
+.code-nav-button {
+    width: 150px;
+    padding: 18px 10px;
+    font-size: 16px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.code-previous {
+    background-color: #f1f1f1;
+    text-align: center;
+    /* Align text to the left */
+}
+
+.code-next {
+    background-color: #3068b3;
+    color: white;
+    text-align: center;
+    /* Align text to the right */
+}
+
+.code-previous:hover {
+    background-color: #ddd;
+}
+
+
+.code-next:hover {
+    background-color: #2842d3;
+}
+
+.code-html-text h1 {
+    margin: 5px 0px;
+}
+
+.code-html-text h3 {
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.code-html-text p {
+    line-height: 30px;
+    font-size: 15px;
+    margin: 20px 10px;
+    font-weight: normal;
+}
+
+.code-html-text .code-points-list ul li {
+    list-style: none;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 15px 10px;
+}
+
+
+.code-html-text .code-points-list ul li::before {
+    content: "☆";
+    font-size: 20px;
+    padding-right: 15px;
+    color: blue;
+}
+
+.code-note-points {
+    background-color: #a0a0a038;
+    padding: 15px;
+    margin: 45px 0px;
+    border-radius: 15px;
+    border: 15px solid rgb(83, 83, 233);
+}
+
+.code-note-points ul li {
+    list-style: none;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 15px 20px;
+
+}
+
+.code-note-points p {
+    font-size: 18px;
+    /* font-weight: 700; */
+}
+
+.code-note-points ul li::before {
+    content: "☆";
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.code-exersice-ques {
+    background-color: #3069b31f;
+    margin: 20px 0px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.code-interview-ques {
+    font-size: 30px;
+    margin: 35px;
+}
+
+.code-exersice-ques .code-ques ol li {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.code-exersice-ques .code-ques ol {
+    margin-left: 25px;
+}
+
+
+/*  html page css End */
+
+/* Responsive Design */
+@media (max-width: 1048px)
+ {
+    .code-mainbar {
+      
+        margin-left: 3px;
+    }
+    .code-banner-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .code-banner-item {
+        padding: 15px;
+    }
+
+    .code-banner-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .code-banner-text h2 {
+        font-size: 26px;
+    }
+
+    .code-banner-text p {
+        font-size: 14px;
+    }
+
+    .code-cta-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .code-banner-img img {
+        width: 80%;
+    }
+
+    .code-heading {
+        margin: 15px 0 0 0;
+        text-align: center;
+        color: #914516;
+    }
+
+    .code-top-items {
+        display: none;
+    }
+
+    .technology-boxs .t-box {
+        height: 150px;
+        width: 150px;
+
+    }
+
+    .code-compiler-vedio h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #914516;
+        margin: 5px;
+    }
+
+    .technology-boxs .t-box p {
+        font-size: 18px;
+    }
+
+    .code-mainbar {
+        width: 100%;
+        padding: 0px 5px;
+        margin-top: 100px !important;
+    }
+
+    .code-mainbar h2 {
+        text-align: center;
+        margin: 30px 0px;
+        font-size: 30px;
+    }
+
+    .code-side {
+        display: none;
+    }
+
+    .code-note-points {
+
+        margin: 35px 0px;
+        border-radius: 5px;
+    }
+
+    .code-note-points ul li {
+
+        line-height: 20px;
+        font-size: 20px;
+        margin: 15px 5px;
+
+    }
+
+    .code-nav-button {
+        width: 100px;
+        /* Fixed width for buttons */
+        padding: 18px 10px;
+
+    }
+    .codingwalla-compiler{
+        width: 85%;
+        display: flex;
+        height: auto;
+         padding: 25px;
+        flex-direction: column;
+    }
+    textarea{
+        width: 100%;
+        height: 100px;
+        padding: 0px 0px;
+       
+    
+      }
+
+      .codingwalla-pagenotfount-img img{
+        width: 100%;
+        height: auto !important;
+        margin-top: 103px !important ;
+       }
+}
+
+@media (max-width: 600px) {
+    .code-banner-text h2 {
+        font-size: 22px;
+    }
+
+    .code-banner-text p {
+        font-size: 13px;
+    }
+
+    .code-cta-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .code-banner-img img {
+        width: 100%;
+    }
+
+    .technology-boxs .t-box img {
+
+        padding-left: 0px;
+    }
+}
+
+
+/* page not found css start */
+
+.codingwalla-pagenotfount-img img{
+ width: 100%;
+ height: 100vh;
+ margin-top: 5px ;
+}
+/* page not found css end */
+
+
+
